@@ -1,0 +1,111 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../bootstrap-5.1.1-dist/bootstrap.css">
+    <title>Document</title>
+    <style>
+        #header{
+            background-color: rgb(65, 93, 145);
+            color: white;
+        }
+        .col h1{
+            padding-top: 18px;
+            padding-left: 20%;
+            font-weight: bold;
+            
+        }
+        .col p{
+            color: rgb(17, 66, 112);
+            padding-left: 15%;
+            padding-top: 9%;
+            padding-right: 15%;
+            font-size: 21px;
+            font-weight: bold;
+        }
+        #box{
+            padding: 5px;
+            border-radius: 3px;
+            border: 1pt solid rgba(102, 102, 236, 0.801);
+            outline: none;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row" id="header">
+            <div class="col">
+                <h1>facebook</h1>
+            </div>
+            <div class="col">
+                <table style="font-size: 11px; margin-top: 10px;" >
+                    <tr style="color: white;">
+                        <td>Email or Phone</td>
+                        <td style="padding-left: 20px;">Password</td>
+                    </tr>
+                    <tr>
+                        <td><input  type="text"  size="20"></td>
+                        <td style="padding-left: 20px;"><input type="text"  size="20"></td>
+                        <td><td style="text-align: center; padding-left: 20px;"><input type="button" value="Log in" style=" border: 1px solid black; background-color: #7173be;color: white;  "></td>
+                    </tr>
+
+                    <tr style="color: white;">
+                        <td><input type="checkbox">Keep me logged in</td>
+                        <td style="padding-left: 20px;">Forgotten your password?</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <p>Facebook helps you connect and share with the people in your life</p>
+            </div>
+            <div class="col">
+                <h2 style="padding-top: 18px; font-weight: bold;">Sign Up</h2>
+                <h5>It's free and always will be.</h5>
+                <table cellpadding="5">
+                    <tr>
+                        <td><input id="box"  type="text"  size="20" placeholder="First Name"></td>
+                        <td><input id="box" type="text"  size="20" placeholder="Last Name"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input id="box" type="email" size="48" placeholder="Your email address"></td> 
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input id="box" type="email" size="48" placeholder="Re-enter email address"></td> 
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input id="box" type="password" size="48" placeholder="New password"></td> 
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold; font-size: 20px;">Birthday</td>
+                    </tr>
+                    <tr>
+                        <td><input type="date"></td>
+                        <td style="font-size: 12px;color: rgb(64, 64, 243); font-weight: bold;">Why do I need to provide<br>my date of birth ?</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold; font-size: 17px;"><input type="radio" name="gen">Female <input type="radio" name="gen"> Male </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="font-size:13px ;">By clicking sign up,you agree to our <u style="color: blue;">Terms</u> and you<br>have read our <u style="color: blue;">Data Use Policy</u> ,
+                        including our <u style="color: blue;">Cookie Use</u>.</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2";><input type="button" value="Sign UP" style=" background-color: #57bb60;color: white; padding: 8px 80px; font-size: 18px; font-weight: bold; border-radius: 5px; "></td>
+                        
+                    </tr>
+                
+                </table>
+                <hr>
+                <p style="padding-top: 5px; padding-left: 0%; font-size: 15px;">Create a page for a celebrity,band or business.</p>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,130 @@
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .header{
+            background-color: rgb(122, 202, 226);
+            text-align: center;
+            padding: 10px;
+        }
+
+        .footer{
+            background-color: rgb(122, 202, 226);
+            text-align: center;
+            padding: 10px;
+            height: 150px;
+        }
+
+        .nav{
+            background-color: #1f1f1f;
+            text-align: center;
+        }
+
+        .nav a{
+            padding: 10px;
+            text-decoration: none;
+            color: #f1f1f1;
+            display: inline-block;
+        
+        }
+
+        .col{
+            width: 33%;
+            float: left;   
+            padding: 10px;
+            font-size: 17;   
+            font-family: Arial, Helvetica, sans-serif;      
+        }
+        h4{
+            color: rgb(14, 14, 143);
+            background-color: burlywood;
+            text-align: center;
+        }
+        
+
+        .nav a:hover{
+            background-color: #f1f1f1;
+            color: #1f1f1f;
+        }
+        
+        .row:after{
+            content: "";
+            display: table;
+            clear: both;
+        }        
+
+        @media screen and (max-width : 600px) {
+            .col{
+                width: 100%;
+            }
+
+            .nav a{
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+
+</head>
+<body>
+   <div class="header">
+    <h1>Techno India Group</h1>
+    <p>Siliguri Institute of Technology</p>
+   </div>
+   
+   <div class="nav">
+    
+        <a href="#home">SITHome</a></li>
+        <a href="#gallary">Gallary</a></li>
+        <a href="#admission">Admission</a></li>
+        <a href="#payment">Payment</a></li>
+        <a href="#contact">Contact</a></li>
+      
+   </div>
+
+   <div class="row">
+       <div class="col">
+        <h4>BCA COURSE</h4>
+        <p> With the rapid growth of IT industry, the demand of computer professionals is increasing day by day.
+            This increasing growth of IT industry has created a lot of opportunities for the computer graduates. 
+            Bachelor or Computer Application (BCA), a 3 years degree honours course, is one of the popular courses 
+            among the students who want to make their career in the IT field.
+        </p>
+       </div>
+
+    <div class="col">
+        <h4>MCA COURSE</h4>
+        <p> Our Computer Application Department is the outcome of combined effort of our faculty,
+            students and the management actively supporting it, since its inception.Our department offers 2 Years
+            MCA Course, which is affiliated to Maulana Abul Kalam Azad University of Technology and approved by AICTE.
+            Our department offers MCA course since 2001.
+        </p>
+    </div>
+
+    <div class="col">
+        <h4>PLACEMENT</h4>
+        <p> Siliguri Institute of Technology under Techno India Group is committed to empower our students with the 
+            Technical and Management education so that they are industry ready & skilled.For every batch, it’s been 
+            a JOB Bonanza for them. In the month of May, we starte with the Intel Campus drive where every year SIT 
+            students got placed and they have already joined Intel Bangalore office.
+        </p>
+    </div>
+    </div>
+    <br>
+    <br>
+   <div class="footer">
+    <h1>Thank You For Visit</h1>
+    <p>About Us</p>  
+    <p>copywrite@xyz</p> 
+   </div>
+</body>
+</html>

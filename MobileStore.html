@@ -1,0 +1,233 @@
+<html lang="en">
+<head>
+    
+    <title>Mobile Store layout</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+        .main{
+            background-image: radial-gradient(circle, #d16ba5, #c87dbc, #bd8ece, #b29ddc, #a9ace4, #9eb6eb, #94bff0, #8cc8f2, #77d0f4, #63d7f0, #57dee8, #59e3da);
+            width: 100%;
+            height: 380px;
+            
+        }
+        .header1{
+            width: 50%;
+            
+            float: left;
+            padding-left: 15%;
+        }
+        h2{
+            color: #4c1496;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .header1 p{
+                font-size: 18;
+                padding-right: 30px;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+                
+        }
+        .header2{
+           
+           
+            width: 50%;
+            float: left;
+            padding-top: 1%;
+            padding-right: 11%;
+        }
+         .photo-gallary{
+             width: 100%;
+             height: auto;
+             display: flex;
+             flex-direction: row;
+             flex-wrap: wrap;
+            justify-content: center;
+            
+             
+         }
+         .image{
+             width: 300px;
+             height: 250px;
+             margin: 30px 30px 20px 30px;
+            
+
+
+         }
+         .image h3{
+            text-align: center;
+            margin-top: 35%;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 28px; 
+            color:rgb(53, 5, 5);
+            backdrop-filter: contrast(60%);
+         }
+         .image:hover h3{
+            font-size: 32;     
+       } 
+        
+        .nav{
+            text-align: right;
+            
+            
+            
+        }
+        
+        .header2 p{
+            text-align: right;
+           
+            
+        }
+
+        .nav a{
+            padding: 10px;
+            padding-right: 20px;
+            text-decoration: none;
+            color: rgb(21, 52, 153);
+            display: inline-block;
+            font-size: 17px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        
+        }
+        
+
+        .nav a:hover{
+            background-color: rgb(105, 178, 238);
+            color: #1f1f1f;
+            font-size:18px ;
+        }
+        .tweeter{
+            width: 77%;
+            background-color: rgb(81, 188, 230);
+            height: 10%;
+            margin-left: 160px;
+            
+            
+            
+        }
+        .tweeter:hover{
+            background-color: rgb(72, 179, 221);
+        }
+        .tweeter h3{
+           padding: 20px;
+           padding-left: 50px;
+            color: blue;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+       
+        .footer{
+            background-image: radial-gradient(circle, #d16ba5, #c87dbc, #bd8ece, #b29ddc, #a9ace4, #9eb6eb, #94bff0, #8cc8f2, #77d0f4, #63d7f0, #57dee8, #59e3da);
+            width: 100%;
+            height: 10%;
+
+        }
+        .nav2 {
+        
+            margin-left: 15%;
+            width: 50%;
+            padding-top: 15px;
+
+        }
+        .nav2 a {
+            padding: 10px;
+            padding-right: 20px;
+            text-decoration: none;
+            color: rgb(21, 52, 153);
+            display: inline-block;
+            font-size: 17px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+           
+        }
+        .nav2 a:hover{
+            background-color: rgb(105, 178, 238);
+            color: #1f1f1f;
+            font-size: 18px;
+        }
+        h5 {
+            margin-right: 20%;
+            margin-top: -2%;
+            float: right;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <div class="main">
+    <div class="header1">
+        <img src="../photo/logo3.png" width="25%">
+        <h2>Techno India Group of Web Development</h2>
+        <p>Beautiful website that is what we can do for you without compromise.We love building clean,unique and usable 
+            web sites and web application.You are always welcome to have a look at my work.<br><br>
+        We create We Design and your duty is only choose.</p>
+        <br>
+    </div>
+   <div class="header2">
+    <div class="nav">
+    
+        <a href="#home">Home</a></li>
+        <a href="#gallary">Gallary</a></li>
+        <a href="#admission">Design</a></li>
+        <a href="#payment">Work</a></li>
+        <a href="#contact">Contact</a></li>
+      
+   </div>
+
+    
+    <p><img  src="../photo/unnamed.jpg" width="80%" height="65%" border="2px" ></p>
+   </div>
+</div>
+   <div class="content">
+   <div class="photo-gallary">
+    
+       <div class="image" style="background-image: url(../photo/image1.jpg); background-size: 100% 100%;">
+        <h3>Services</h3>
+      </div>
+       <div class="image" style="background-image: url(../photo/image2.jpg); background-size: 100% 100%;">
+        <h3>Services</h3>
+      </div>
+       <div class="image" style="background-image: url(../photo/image3.jpg); background-size: 100% 100%;">
+        <h3>Services</h3>
+     </div>
+       <div class="image" style="background-image: url(../photo/image4.jpg); background-size: 100% 100%;">
+        <h3>Recent Work</h3>
+     </div>
+       <div class="image" style="background-image: url(../photo/image5.jpg); background-size: 100% 100%;">
+        <h3>Recent Work</h3>
+     </div>
+       <div class="image" style="background-image: url(../photo/image6.jpg); background-size: 100% 100%;">
+        <h3>Recent Work</h3>
+     </div>
+
+   </div>
+   <br>
+   <div class="tweeter">
+    <h3>Twitter Feed</h3>
+   </div>
+</div>
+<br>
+<div class="footer">
+    <div class="nav2">
+    
+        <a href="#home">Home</a></li>
+        <a href="#gallary">Gallary</a></li>
+        <a href="#admission">Design</a></li>
+        <a href="#payment">Work</a></li>
+        <a href="#contact">Contact</a></li>
+      
+   </div>
+   <h5>Copyright info</h5>
+
+</div>
+
+   
+</body>
+</html>

@@ -1,0 +1,62 @@
+    <style>
+        body{
+            margin: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .header{
+            background-color: lightgray;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .footer{
+            background-color: lightgray;
+            text-align: center;
+            padding: 10px;
+            height: 150px;
+        }
+
+        .navMenu{
+            background-color: #1f1f1f;
+            text-align: center;
+        }
+
+        .navMenu a{
+            padding: 10px;
+            text-decoration: none;
+            color: #f1f1f1;
+            display: inline-block;
+        }
+
+        .col{
+            width: 33%;
+            float: left;   
+            padding: 10px;         
+        }
+
+        .navMenu a:hover{
+            background-color: #f1f1f1;
+            color: #1f1f1f;
+        }
+
+        .row:after{
+            content: "";
+            display: table;
+            clear: both;
+        }        
+
+        @media screen and (max-width : 600px) {
+            .col{
+                width: 100%;
+            }
+
+            .navMenu a{
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
